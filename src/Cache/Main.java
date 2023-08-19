@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Cache<String> cache = new LFUCache<String>(2);
+        Cache<String> cache = new LRUCache<String>(2);
 
         Scanner s = new Scanner(System.in);
         int t = s.nextInt();
